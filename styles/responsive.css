@@ -1,0 +1,107 @@
+@media (max-width: 1299px){
+    .bottom_content_item {
+        display: flex;
+        width: 45%;
+    }
+}
+@media (max-width: 990px){
+    .footer_links a{
+        font-size: 20px;
+    }
+}
+@media (max-width: 991px){
+    .speed_content p:nth-child(1){
+        font-size: 36px;
+        color: #B70021;
+        margin-bottom: 45px;
+    }
+    .bottom_content{
+        display: block;
+    }
+    .bottom_content_item{
+        width: 100%;
+    }
+}
+@media (max-width: 847px){
+    .footer_links{
+        text-align: center;
+    }
+}
+@media (max-width: 773px){
+    .characteristics{
+        flex-direction: column;
+    }
+    .characteristic sup{
+        position: absolute;
+        top: 46px;
+        right: 279px;
+    }
+    .characteristic{
+        margin-bottom: 30px;
+    }
+    .bottom_content_item{
+        display: block;
+    }
+    .footer_links a::after{
+        display: none;
+        
+    }
+    .footer_links a{
+        margin: 0 8px;
+    }
+    .speed_content p:nth-child(1){
+        margin-bottom: 40px;
+    }
+    .characteristic p:nth-child(1){
+        font-size: 39px;
+    }   
+}
+@media (max-width: 771px){
+    .characteristic sup{
+        position: absolute;
+        top: 46px;
+        right: 283px;
+    }
+}
+@media (max-width: 762px){
+    .characteristic sup{
+        position: absolute;
+        top: 46px;
+        right: 191px
+    }
+    .speed_content p:nth-child(1){
+        font-size: 34px;
+    } 
+    .speed_content p:nth-child(2){
+        font-size: 18px;
+    }
+    .speed img{
+        width: 41%;
+        object-fit: cover;
+    }
+    .benefits img {
+        width: 41%;
+        object-fit: cover;
+    }
+    .benefits_content p:nth-child(1){
+        font-size: 18px;
+        margin-left: 38px;
+    } 
+    .benefits_content p:nth-child(2){
+        font-size: 34px;
+    }
+    .bottom_content {
+        display: block;
+    }
+    .bottom_content_item{
+        width: 100%;
+    }
+}
+@media (max-width: 581px){
+    .navigation{
+        justify-content: space-around;
+    } 
+    .footer_links{
+        text-align: center;
+    }
+}
